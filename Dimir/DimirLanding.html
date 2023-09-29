@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Enforcement</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            background: url(../LandingPages/DimirMain.JPG) no-repeat center center fixed;
+            background-size: cover;
+            overflow: hidden;
+        }
+        html, body {
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            list-style: none;
+            text-decoration: none;
+            color: black;
+            text-shadow: 0 0 3px greenyellow;
+            font-size: 1.5em;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @font-face {
+            font-family: Brenda;
+            src: url(../FontFiles/Branda-yolq.ttf);
+        }
+        .info {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            flex: 1;
+            min-height: 100%;
+            gap: 15px;
+            font-size: 1.5em;
+        }
+        .info h1 {
+            width: 45%;
+            margin-left: 7px;
+            font-family: Brenda;
+            /* box-shadow: 5px 10px 8px 10px #888888; */
+        }
+        .info p {
+            width: 35%;
+            word-wrap: break-word;
+            margin-left: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            /* box-shadow: 5px 10px 8px 10px #888888; */
+            background: transparent;
+            text-align: center;
+        }
+        .info a {
+            border: 3px solid black;
+            border-radius: 25%;
+            width: 15%;
+            text-align: center;
+            background-color: yellow;
+            text-decoration: none;
+            color: black;
+            margin-left: 5.5em;
+        }
+        .info a:hover {
+            text-decoration: underline;
+        }
+        @media only screen and (max-width: 600px){
+            html {
+                overflow: scroll;
+            }
+            
+            .info {
+                width: 100%;
+                text-align: center;
+            }
+            .info p {
+                min-width: 100%;
+                background-color: aliceblue;
+            }
+            .info h1 {
+                background-color: aliceblue;
+            }
+            .info a {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="container">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="DimirTopTen.html">Most Wanted</a></li>
+            </ul>
+        </nav>
+    </header>
+<section class="info">
+    <h1>Ravnica's First Line of Defense</h1>
+    <p>House Dimir accomplishes what other guilds cannot accomplish and we go where they cannot go.</p>
+    <p>Click the link to learn more about us.</p>
+    <a href="DimirAbout.html">About Us</a>
+</section>
+</body>
+</html> 

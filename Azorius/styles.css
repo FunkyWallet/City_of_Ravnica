@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.holdTogether {
+    position: fixed;
+    width: 100%; /*Want this container to span the whole width and height of the viewport. */
+    height: 100%;
+    background-color: white; /* Background color for the loading screen */
+    display: flex; /*Change to flex box for better manipulation.*/
+    flex-direction: column;
+    align-items: center; /*Keep it all in the middle.*/
+    justify-content: center;
+}
+
+.spinwheel {
+    border: 4px solid lightskyblue; /* Wheel color */
+    border-top: 4px solid salmon; /* Wheel color */
+    border-radius: 50%; /*This value along with the width and height values create a circular look that is common for most loading icons.*/
+    width: 50px;
+    height: 50px;
+    animation-name: spin; /*define the animation name to be called by the keyframes rule. Name at your own discretion.*/
+    animation-duration: 4s; /*defines time it takes to complete one cycle.*/
+    animation-timing-function: linear; /*Plays animation at same speed from start to finish.*/
+    animation-iteration-count: infinite;/*Plays animation indefinitely.*/
+}
+.click-here {
+    margin-top: 10px; /* Add some spacing between spinny wheel and text */
+}
+
+/* Keyframes for loader animation. Totally got this online. I have not learned this yet but it seems easy enough to grasp the concept. here we create a new keyframes animation and call it "spin". This @rule gradually changes the styling to create an animation effect. 0% represents the start (from) of the animation while 100% represents the end (to). In this example we are starting */
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+}

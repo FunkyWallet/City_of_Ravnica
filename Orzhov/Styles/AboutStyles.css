@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    flex: 1;
+}
+
+/* ********************************************************************************** */
+/* ************************************ Order *************************************** */
+/* ********************************************************************************** */
+
+.order-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20%;
+    background-color: whitesmoke;
+    flex: 1;
+}
+.order-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+    align-self: center;
+}
+.order-text p {
+    max-width: 250px;
+}
+
+.order-row img {
+    margin: 10px;
+    width: 40%;
+}
+
+/* ********************************************************************************** */
+/* ***************************** Sustain ******************************************** */
+/* ********************************************************************************** */
+
+.sustain-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20%;
+    background-color: white;
+    flex: 1;
+}
+.sustain-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+    align-self: center;
+}
+.sustain-text p {
+    max-width: 250px;;
+}
+
+.sustain-row img {
+    margin: 10px;
+    width: 50%;
+}
+
+/* ********************************************************************************** */
+/* ***************************** Transform ****************************************** */
+/* ********************************************************************************** */
+
+.transform-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20%;
+    background-color: whitesmoke;
+    flex: 1;
+}
+.transform-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+    align-self: center;
+}
+.transform-text p {
+    max-width: 250px;
+}
+
+.transform-row img {
+    margin: 10px;
+    width: 50%;
+}
+
+/* ********************************************************************************** */
+/* ********************************** Unique **************************************** */
+/* ********************************************************************************** */
+
+.unique-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20%;
+    background-color: white;
+    flex: 1;
+}
+.unique-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+    align-self: center;
+}
+.unique-text p {
+    max-width: 250px;
+}
+
+.unique-row img {
+    margin: 10px;
+    width: 50%;
+}
+
+/* ********************************************************************************** */
+/* *********************************** Join ***************************************** */
+/* ********************************************************************************** */
+
+.join-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20%;
+    background-color: whitesmoke;
+    flex: 1;
+}
+.join-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+    align-self: center;
+}
+.join-text p {
+    max-width: 250px;
+}
+.join-text h1 {
+    font-size: 1.8em;
+}
+.join-row img {
+    margin: 10px;
+    width: 50%;
+}
+
+/* ********************************************************************************** */
+/* **************************** Navigation ****************************************** */
+/* ********************************************************************************** */
+
+header, footer {
+    background-color: rgb(0, 51, 102); /* Dark blue background */
+    color: white; /* White text */
+    padding: 10px;
+    text-align: center; /*Keep it all centered*/
+}
+nav {
+    background-color: rgb(0, 40, 85);
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 5px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+a {
+    color: rgb(0, 102, 204); 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

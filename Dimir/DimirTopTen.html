@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Most Wanted</title>
+    <style>
+        html {
+            /* background: url(../LandingPages/DimirMain.JPG) no-repeat center center fixed; */
+            background-color: gray;
+        }
+        header, footer {
+            background-color: rgb(0, 51, 102); /* Dark blue background */
+            color: white; /* White text */
+            padding: 10px;
+            text-align: center; /*Keep it all centered*/
+        }
+                nav {
+            background-color: rgb(0, 40, 85);
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin: 0 5px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        a {
+            color: rgb(0, 102, 204); 
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; /* Underline links on hover */
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0; 
+        }
+        main {
+            max-width: 1100px;
+            margin: 0px auto;
+        }
+        h2 {
+            text-align: center;
+            color: black;
+            text-shadow: white 1px 1px 3px;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        section#masonry {
+            column-count: 2;
+            column-gap: 10px;
+        }
+        div.item {
+            margin-bottom: 10px;
+        } 
+
+        /* media query for tablet or smaller screens */
+        @media only screen and (max-width: 800px) {
+            section#masonry {
+                column-count: 2; /* 2 best options. others make it look weird. */
+                column-gap: 8px; /* make bigger? */
+            }
+        } 
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="DimirLanding.html">Dimir Home</a></li>
+                <li><a href="../index.html">Ravnica Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Top Ten most Wanted: Click to learn more</h2>
+        <section id="masonry">
+            <div class="item">
+                <a href="MostWantedImgs/TopTen.html#Ritjit"><img src="MostWantedImgs/Ritjit.jpeg" alt=""></a>
+                <a href="MostWantedImgs/TopTen.html#RuziAndKuma"><img src="MostWantedImgs/RuziAndKuma.jpeg" alt=""></a>
+                <a href="MostWantedImgs/TopTen.html#LoltethTroll"><img src="MostWantedImgs/LotlethTroll.jpeg" alt=""></a>
+                <a href="MostWantedImgs/TopTen.html#Senka"><img src="MostWantedImgs/Senka.jpeg" alt=""></a>
+                <a href="MostWantedImgs/TopTen.html#BoriAndon"><img src="MostWantedImgs/BoriAndon.jpeg" alt=""></a>
+                <a href="MostWantedImgs/TopTen.html#Krenko"><img src="MostWantedImgs/Krenko.jpeg" alt=""></a>
+                <a href="MostWantedImgs/TopTen.html#Cozen"><img src="MostWantedImgs/TheCozen.jpeg" alt=""></a>
+                <a href="MostWantedImgs/TopTen.html#Voidwielder"><img src="MostWantedImgs/Damir.jpeg" alt=""></a>
+                <a href="MostWantedImgs/TopTen.html#Unseen"><img src="MostWantedImgs/TheUnseen.jpeg" alt=""></a>
+                <a href="MostWantedImgs/TopTen.html#MassacreGirl"><img src="MostWantedImgs/MassacreGirl.jpeg" alt=""></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Dimir House. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
